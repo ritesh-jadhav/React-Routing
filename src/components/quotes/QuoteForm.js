@@ -24,7 +24,7 @@ const QuoteForm = (props) => {
   const formFocousHandler = () => {
     setIsEntering(true);
   };
-
+  // out of submitFormHandler thus does not break synchronous process
   const finishedEnteringHandler = () => {
     setIsEntering(false);
   };
